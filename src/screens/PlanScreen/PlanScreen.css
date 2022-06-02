@@ -1,0 +1,24 @@
+.profileScreen__plan {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.profileScreen__plan--disabled > button {
+    background-color: gray !important;
+}
+
+.profileScreen__plan:hover {
+    opacity: 0.1;
+}
+
+.profileScreen__plan > button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
