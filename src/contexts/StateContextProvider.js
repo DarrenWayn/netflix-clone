@@ -72,8 +72,7 @@ export const StateContextProvider = ({ children }) => {
             if (sessionId) {
                 // We have a session, Let's redirect to checkout
                 // Init stripe
-    
-                const stripe = await loadStripe('pk_test_51L4Mf2LdXsnOzxgtxLD2anhcXnBR2x35vuvOgECWIb8q5iC0XbeTAAlI0Ryqy3RybyShKQyBwhh86bYy6CPtEmtQ00JKPUaZkf')
+                const stripe = await loadStripe('pk_test_51L6Go1BxVqRye5VxZPbnly4sF4bZqbTlfrUIWRuMLHVtbFJK8eRq2Y9HF9UeMhG7v98Y1XlxENUjESMt4SymxfAD0070NFB2zn')
                 stripe.redirectToCheckout({ sessionId })
             }
         })

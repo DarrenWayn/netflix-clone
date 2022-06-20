@@ -1,12 +1,14 @@
+const API_KEY='5b21272624d6cd6b6b547e94a69225cb'
+
 const requests = {
-    fetchTrending: `/trending/all/week?api_key=${process.env.API_KEY}&language=en-US`,
-    fetchNetflixOriginals: `/discover/tv?api_key=${process.env.API_KEY}&with_networks=213`,
-    fetchTopRated: `/movie/top_rated?api_key=${process.env.API_KEY}&language=en-US`,
-    fetchActiosMovies: `/discover/movie?api_key=${process.env.API_KEY}&with_genres=28`,
-    fetchComendyMovies: `/discover/movie?api_key=${process.env.API_KEY}&with_genres=35`,
-    fetchHorrorMovies: `/discover/movie?api_key=${process.env.API_KEY}&with_genres=27`,
-    fetchRomanceMovies: `/discover/movie?api_key=${process.env.API_KEY}&with_genres=10749`,
-    fetchDocumentaries: `/discover/movie?api_key=${process.env.API_KEY}&with_genres=99`,
+    fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
+    fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
+    fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
+    fetchActiosMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
+    fetchComendyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
+    fetchHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
+    fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
+    fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 }
 
 export default requests
